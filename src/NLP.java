@@ -6,12 +6,14 @@ import java.util.regex.Pattern;
  * Created by ram on 4/5/2015.
  */
 public class NLP {
+    
     static String patterns[] = {
-            "",
-            "(<pre id=.parse. class=.spacingFree.>(.*?)<.pre>)",
-            "(<pre class=.spacingFree.>.(.*?)<.pre>)",
-            "(d<.h3>.*?Free.>(.*?)<.pre>)",
-            "" };
+        "",
+        "(<pre id=.parse. class=.spacingFree.>(.*?)<.pre>)",
+        "(<pre class=.spacingFree.>.(.*?)<.pre>)",
+        "(d<.h3>.*?Free.>(.*?)<.pre>)",
+        "" 
+    };
 
     public enum TYPE {
         TAGGED_SENTENCE("TAGGED_SENTENCE"),
