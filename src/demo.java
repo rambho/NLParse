@@ -8,7 +8,7 @@ public class demo {
             language.process("A Natural Language Processing helper library for research purposes.");
             language.printAll();
             /*
-            POS_PARSER parser = new POS_PARSER();
+            POS_PARSER parser = new POS_PARSER(); //LL Recursive Parser for processing POS tagged grammar.
             parser.parse("(ROOT\n" +
                 "  (S\n" +
                 "    (VP (VB Example)\n" +
