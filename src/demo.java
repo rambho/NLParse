@@ -10,13 +10,15 @@ public class demo {
             /*
             POS_PARSER parser = new POS_PARSER();
             parser.parse("(ROOT\n" +
-                    "  (S\n" +
-                    "    (NP (PRP I))\n" +
-                    "    (VP (VBD messed)\n" +
-                    "      (PRT (RP up))\n" +
-                    "      (PP (IN during)\n" +
-                    "        (NP (DT the) (NN interview))))\n" +
-                    "    (. .)))\n");
+                "  (S\n" +
+                "    (VP (VB Example)\n" +
+                "      (NP (NN problem))\n" +
+                "      (SBAR (IN as)\n" +
+                "        (S\n" +
+                "          (VP (VBN presented)\n" +
+                "            (PP (IN in)\n" +
+                "              (NP (PRP$ my) (NNP IBM) (NNP Watson) (NNP Interview)))))))\n" +
+                "    (. .)))");
                     */
         } catch (Exception e) {
             e.printStackTrace();
