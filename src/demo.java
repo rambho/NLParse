@@ -19,7 +19,7 @@ public class demo {
                 "            (PP (IN in)\n" +
                 "              (NP (PRP$ my) (NNP IBM) (NNP Watson) (NNP Interview)))))))\n" +
                 "    (. .)))");
-                parser.printWordTree("->");
+                parser.printWordTree();
                 //Output: Example -> problem -> as -> presented -> in -> my -> Watson -> Interview. -> EOS.
                     */
         } catch (Exception e) {
